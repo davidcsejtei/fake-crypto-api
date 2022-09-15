@@ -1,7 +1,9 @@
 {
-    "User": {
-        "title": {
-            "string": {}
+    "Rate": {
+        "from": "BTC",
+        "to": "USD",
+        "rate": {
+            "number": {}
         }
     }
 }
