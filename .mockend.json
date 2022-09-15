@@ -1,9 +1,16 @@
 {
     "Rate": {
-        "from": "BTC",
-        "to": "USD",
+        "from": {
+            "string": "BTC"
+        },
+        "to": {
+            "string": "USD"
+        },
         "rate": {
-            "number": {}
+            "int": {
+                "min": 0,
+                "max": 1000000
+            }
         }
     }
 }
